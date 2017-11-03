@@ -1,7 +1,19 @@
 {
-  "update_url" : "https://raw.githubusercontent.com/yjfnypeu/UpdatePlugin/master/update_plugin.apk",
-  "update_content" : "你有新的版本需要更新",
-  "update_ver_code" : 10,
-  "update_ver_name" : "10.00",
-  "ignore_able" : true
+  "update_url": "https://raw.githubusercontent.com/yjfnypeu/UpdatePlugin/master/update_plugin.apk",
+  "update_content": "你有新的版本需要更新",
+  "update_ver_code": 10,
+  "update_ver_name": "10.00",
+  "ignore_able": true,
+  "force_able": true,
+  "advanced": {
+    "enable": false,
+    "ver_code": ".*",
+    "ver_name": ".*",
+    "user_id": ".*",
+    "stb_id": ".*",
+    "ip": ".*",
+    "ext1": ".*",
+    "ext2": ".*",
+    "ext3": ".*"
+  }
 }
